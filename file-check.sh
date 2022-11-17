@@ -1,3 +1,10 @@
+#############
+###
+###  @author: Swayam Raina
+###  @description: This file searches common file in 2 dirs
+###
+##############################################################
+
 #!/usr/bin/env bash
 
 check_folder='/Users/swayam.raina/swiggy/instamart/dash-fulfilment'
