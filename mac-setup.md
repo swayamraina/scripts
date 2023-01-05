@@ -71,6 +71,10 @@ vim ~/.ssh/config
 - vim ~/.ssh/id_rsa.pub
 - chmod 400 ~/.ssh/id_rsa
 
+# setup coast
+- brew tap swigy/brew git@github.com:swiggy-private/homebrew-brew.git
+- brew install coast
+
 ------------------------------------------------------------------------------------------------------------------------------
 
 # setup infra
@@ -79,4 +83,6 @@ vim ~/.ssh/config
 - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html
 
 ------------------------------------------------------------------------------------------------------------------------------
+
+
 
