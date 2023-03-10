@@ -40,27 +40,10 @@ brew install --cask bloomrpc
 
 ### install languages
 - https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/macos-install.html
+- https://jdk.java.net/archive/ (OpenJDK)
 - https://go.dev/doc/install
 - https://gradle.org/install/
 
-------------------------------------------------------------------------------------------------------------------------------
-
-# setup gitconfig
-vim ~/.gitconfig
-
-```
-[user]
-# Please adapt and uncomment the following lines:
-        name = swayamraina
-        email = swayam.raina@swiggy.in
-[url "git@github.com:swiggy-private/"]
-        insteadOf = https://github.com/swiggy-private/
-[url "“git@github.com:swiggy-private/“"]
-        insteadOf = “https://api.github.com/swiggy-private/”
-[url "git@github.com:"]
-        insteadOf = https://github.com/
-```
-        
 ------------------------------------------------------------------------------------------------------------------------------
 
 # setup ssh configs
@@ -70,10 +53,6 @@ vim ~/.ssh/config
 - vim ~/.ssh/id_rsa 
 - vim ~/.ssh/id_rsa.pub
 - chmod 400 ~/.ssh/id_rsa
-
-# setup coast
-- brew tap swigy/brew git@github.com:swiggy-private/homebrew-brew.git
-- brew install coast
 
 ------------------------------------------------------------------------------------------------------------------------------
 
